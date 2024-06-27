@@ -12,7 +12,7 @@
 <body>
     <div class="content">
         <header>
-            <a class="header" href="/"></a>
+            <a class="header" href="/">ghjghjk</a>
         </header>            
 
         <footer>
