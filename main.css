@@ -45,6 +45,11 @@ p {
 .flex {
     justify-content: space-between;
     display: flex;
+    .flex{
+        margin: 1em 0;
+        padding: 1em;
+        background-color: #b3e5fc;
+      }
 }
 
 .download {
