@@ -52,11 +52,6 @@ p {
         padding: 1em;
         margin: 1em 5px;
       }
-      
-      .flex p{
-        margin: 0;
-        padding: 0;
-      }
 }
 
 .download {
