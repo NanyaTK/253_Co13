@@ -69,3 +69,8 @@ p {
     margin: 1em 5px;
     margin-left:1%;
 }
+@media screen and (max-width: 1000px) {
+    .how-to-play {padding: 3em 10em;}
+
+    .download {padding: 3em 10em;}
+}
