@@ -43,7 +43,7 @@ p {
 }
 
 .flex {
-    justify-content: space-evenly;
+    justify-content: space-between;
     display: flex;
     
     background: #f8f0d7;
