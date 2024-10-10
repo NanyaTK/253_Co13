@@ -43,11 +43,14 @@ p {
 }
 
 .flex {
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
-    
+
+}
+
+.how-to-play {
     background: #f8f0d7;
-    border-left: 5px dotted rgba(0,0,0,.1);
+    border-left: 5px dotted rgba(0, 0, 0, .1);
     box-shadow: 0 0 0 5 #f8f0d7;
     padding: 1em;
     margin: 1em 5px;
@@ -55,4 +58,11 @@ p {
 
 .download {
     margin-right: 10%;
+
+    background: #f8f0d7;
+    border-left: 5px dotted rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 5 #f8f0d7;
+    padding: 1em 10em;
+    margin: 1em 5px;
+    margin-left: 5%;
 }
