@@ -21,7 +21,6 @@ body {
 
 header {
     text-align: center;
-    padding-bottom: 20px;
     position: relative;
 }
 
@@ -34,7 +33,7 @@ header {
 .info-header {
     text-align: right;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 10px;
     right: 10px;
 }
