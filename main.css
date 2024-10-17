@@ -65,7 +65,7 @@ p {
 .how-to-play {
     width: 50%;
     height: auto;
-    min-height: 50px;
+    min-height: 200px;
     background: #f8f0d7;
     border-left: 5px dotted rgba(0, 0, 0, .1);
     box-shadow: 0 0 0 5 #f8f0d7;
@@ -77,7 +77,7 @@ p {
 .download {
     width: 50%;
     height: auto;
-    min-height: 50px;
+    min-height: 200px;
     background: #f8f0d7;
     border-left: 5px dotted rgba(0, 0, 0, .1);
     box-shadow: 0 0 0 5 #f8f0d7;
