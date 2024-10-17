@@ -109,6 +109,7 @@ p {
 
 .arrow {
     width: 5%;
+    min-width: 15px;
 }
 
 .environment {
