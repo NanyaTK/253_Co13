@@ -59,11 +59,7 @@ p {
 .flex {
     justify-content: center;
     display: flex;
-
-}
-
-.flex-sp {
-    display: block;
+    align-items: center;
 }
 
 .how-to-play {
@@ -87,6 +83,10 @@ p {
     margin-left: 1%;
 }
 
+.pad {
+    padding: 80px;
+}
+
 @media screen and (max-width: 1000px) {
     .how-to-play {
         width: 100%;
@@ -100,6 +100,10 @@ p {
         padding: 1em;
         margin: 1em 5px;
         margin-left: 1%;
+    }
+
+    .flex-sp {
+        display: block;
     }
 }
 
