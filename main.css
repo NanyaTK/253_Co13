@@ -63,7 +63,21 @@ p {
 
 }
 
-.how-to-play {    
+.flex-sp {
+    display: block;
+}
+
+.how-to-play {
+    width: 50%;
+    background: #f8f0d7;
+    border-left: 5px dotted rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 5 #f8f0d7;
+    padding: 1em 10em;
+    margin: 1em 5px;
+    margin-left: 1%;
+}
+
+.download {
     width: 50%;
 
     background: #f8f0d7;
@@ -74,36 +88,26 @@ p {
     margin-left: 1%;
 }
 
-.download {  
-    width: 50%;
-
-    background: #f8f0d7;
-    border-left: 5px dotted rgba(0, 0, 0, .1);
-    box-shadow: 0 0 0 5 #f8f0d7;
-    padding: 1em 10em;
-    margin: 1em 5px;
-    margin-left:1%;
-}
 @media screen and (max-width: 1000px) {
-    .how-to-play 
-    {
+    .how-to-play {
+        width: 100%;
         padding: 1em;
         margin: 1em 0.5px;
         margin-left: 1%;
     }
 
-    .download 
-    {   padding: 1em;
+    .download {
+        width: 100%;
+        padding: 1em;
         margin: 1em 5px;
         margin-left: 1%;
     }
-    margin-right: 10%;
 }
 
-.arrow{
+.arrow {
     width: 5%;
 }
 
-.environment{
+.environment {
     padding-top: 50px;
 }
