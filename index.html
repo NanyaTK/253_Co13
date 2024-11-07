@@ -24,7 +24,27 @@
 
             <section class="download">
                 <h2>How to Make</h2>
-                <p>ダウンロードリンクを貼る</p>
+                <a href="#" onclick="downloadFiles()">複数ファイルをダウンロード</a>
+                
+                <script>
+                    function downloadFiles() {
+                        const files = [
+                            '01_money.pdf',
+                            '02_class.pdf',
+                            '03_map.pdf'
+                        ];
+
+                        files.forEach(file => {
+                            const link = document.createElement('a');
+                            link.href = file;
+                            link.download = file.split('/').pop();
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        });
+                    }
+                </script>
+
             </section>
         </div>
         <div class="recycle flex">
