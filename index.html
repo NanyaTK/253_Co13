@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title></title>
+    <title>高専人生ゲーム</title>
     <link href="main.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     </meta>
@@ -12,8 +12,9 @@
 <body>
     <div class="container">
         <header>
-            <img class="image-header" src="テスト画像.png" />
-            <p class="info-header">高専人生ゲームは人生ゲームのような「人生」ではなく<br>5年間の「高専人生」にフォーカスしたボードゲームです</p>
+            <img class="image-header" src="top.jpg" style="max-height: fit-content;" />
+            <p class="info-header" style="background-color: white;">
+                高専人生ゲームは人生ゲームのような「人生」ではなく<br>5年間の「高専人生」にフォーカスしたボードゲームです</p>
         </header>
 
         <div class="flex flex-sp">
@@ -32,7 +33,8 @@
                             '01_money.pdf',
                             '02_class.pdf',
                             '03_map.pdf',
-                            '04_torisetu.pdf'
+                            '04_torisetu.pdf',
+                            '05_str.pdf'
                         ];
 
                         files.forEach(file => {
@@ -48,14 +50,19 @@
 
             </section>
         </div>
-        <div class="recycle flex">
-            <div class="before"><img class="image-header" src="テスト画像.png" /></div>
-            <div class="arrow"><img class="image-header" src="fig-arrow.svg" /></div>
-            <div class="after"><img class="image-header" src="テスト画像.png" /></div>
-        </div>
+
         <section class="environment">
-            <h2>環境</h2>
-            <p>ここに環境に関する説明が入ります。</p>
+            <h2>環境への配慮</h2>
+            <p>1. 廃棄物の削減
+                ペットボトルを建造物の支えとして再利用することで、ゴミを減らし、廃棄物の問題解決に貢献します。
+                特にプラスチックゴミは分解に長い時間がかかるため、再利用の促進は環境負荷を軽減します。<br>
+                2. 資源の節約
+                ペットボトルを建物の基礎や小道具に転用すれば、新たに材料を購入する必要がなくなり、資源の無駄遣いを防ぐことができます。</p>
+            <div class="recycle flex">
+                <div class="before"><img class="image-header" src="before.png" /></div>
+                <div class="arrow"><img class="image-header" src="fig-arrow.svg" /></div>
+                <div class="after"><img class="image-header" src="after.jpg" /></div>
+            </div>
         </section>
     </div>
 </body>
